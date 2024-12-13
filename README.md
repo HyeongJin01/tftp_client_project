@@ -56,9 +56,14 @@
 3. 사용법
 이 기말 프로젝트 TFTP 클라이언트을 사용하는 방법은 아래와 같습니다.(project name:TFTP_project_Client)
 
-파일을 다운로드 하는 방법:  
+파일을 다운로드 하는 방법: 
+
 python TFTP_project_Client.py 203.250.133.88 get tftp.txt
+
 파일을 업로드 하는 방법:  
+
 python TFTP_project_Client.py 203.250.133.88 put tftp.txt
-서버 포트가 69번이 아닐 경우에는 –p옵션을 이용해서 포트를 지정하는 방법:         
+
+서버 포트가 69번이 아닐 경우에는 –p옵션을 이용해서 포트를 지정하는 방법:  
+
 python TFTP_project_Client.py 203.250.133.88 –p port번호입력[ex)12345] put tftp.txt
